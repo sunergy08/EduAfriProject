@@ -1,0 +1,20 @@
+<div>
+    <h2>{{dashboard.Home| uppercase}}</h2>
+    <div><span>Id:</span>{{dashboard.Id}}</div>
+    <!--to input a form, go to the app.module.ts file of this project and 
+    "import {FormsModule} from '@angular/forms' and import under the @NgModule import, add ",FormsModule"; -->
+    <div><span>Age:</span>{{dashboard.Age}}</div>
+    <div><span>Class:</span>{{dashboard.Class}}</div>
+    <div><span>Department:</span>{{dashboard.Department}}</div>
+</div>
+<div style = "margin: 50px">
+    <!--<label> FirstName: <input [(ngModel)]="dashboard.FirstName" type="string" placeholder="FirstName"></label><p>-->
+    <label> Biodata:</label><p>
+    <label><input type="text" placeholder="FirstName"></label><br>
+    <label><input type="text" placeholder="LastName"></label><br>
+    <label><input type="text" placeholder="UserName"></label><br>
+    <label><input type="text" placeholder="Email"></label><br>
+    <label><input type="password" placeholder="Password"></label><br>
+    <label><input type="text" placeholder="Country"></label><br>
+</div>
+ 
